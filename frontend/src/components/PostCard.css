@@ -1,0 +1,126 @@
+.post-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 1.5rem;
+  cursor: pointer;
+  transform: translateZ(0);
+}
+
+.post-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(6, 182, 212, 0.3);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.author-avatar {
+  background: var(--grad-primary);
+  color: #ffffff;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+  box-shadow: 0 2px 8px rgba(168, 85, 247, 0.3);
+}
+
+.card-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.author-name {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.dot {
+  color: var(--text-muted);
+}
+
+.card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.35;
+  /* Truncate multi-line title */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card-summary {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  /* Truncate multi-line summary */
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-color);
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.read-time {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.footer-icon {
+  width: 14px;
+  height: 14px;
+}
+
+.btn-read-more {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-weight: 600;
+  color: #06b6d4;
+  transition: var(--transition-smooth);
+}
+
+.post-card:hover .btn-read-more {
+  color: #a855f7;
+}
+
+.arrow-icon {
+  width: 12px;
+  height: 12px;
+  transition: var(--transition-bounce);
+}
+
+.post-card:hover .arrow-icon {
+  transform: translateX(4px);
+}

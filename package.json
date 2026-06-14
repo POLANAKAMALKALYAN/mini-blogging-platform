@@ -1,0 +1,14 @@
+{
+  "name": "blogging-platform-root",
+  "version": "1.0.0",
+  "description": "Root package.json for the full-stack blogging platform",
+  "scripts": {
+    "setup": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "server": "cd backend && npm start",
+    "client": "cd frontend && npm run dev",
+    "dev": "npx concurrently \"npm run server\" \"npm run client\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

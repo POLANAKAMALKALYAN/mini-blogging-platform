@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Unveiling the Secrets of CSS Grid & Bento Layouts",
+    "summary": "Explore how CSS Grid allows you to build asymmetrical, content-rich, and visually striking \"Bento Box\" layouts inspired by Apple design patterns.",
+    "content": "Bento box layouts have taken the web design world by storm. Originating from the Japanese bento lunchbox, this design pattern arranges content into clean, nested rectangular compartments. In this article, we cover how to leverage CSS grid properties like grid-template-areas, grid-column-span, and subtle glassmorphic borders to construct your own bento layouts. They are responsive, look incredibly sleek, and help organize disparate data elegantly on a single canvas.",
+    "author": "Alex River",
+    "publishedAt": "2026-06-11T13:18:04.895Z"
+  },
+  {
+    "id": 2,
+    "title": "The Art of Glassmorphism in Modern Web Interfaces",
+    "summary": "A deep dive into using backdrop-filter, gradients, and transparency to craft state-of-the-art translucent user interfaces that feel premium.",
+    "content": "Glassmorphism is a UI design trend that mimics the look of frosted glass. It relies on a combination of multi-layered translucent surfaces, background blur effects, and vibrant glowing gradients behind the glass pane. By combining CSS backdrop-filter: blur() with border shadows and semi-transparent border outlines, developers can create stunning visual depth. Learn when to use it, how to handle contrast ratios for accessibility, and why it remains a popular choice for premium applications.",
+    "author": "Sophia Vance",
+    "publishedAt": "2026-06-13T13:18:04.896Z"
+  },
+  {
+    "id": 3,
+    "title": "Building High-Performance APIs with Node.js and SQLite",
+    "summary": "Why SQLite is the perfect fit for small to medium scale backend services, microservices, prototype applications, and local coding challenges.",
+    "content": "When starting a new project, many developers default to heavy database solutions like PostgreSQL or MongoDB. However, for a wide array of applications, SQLite is more than sufficient. As a self-contained, serverless database engine, SQLite reads and writes directly to ordinary disk files. We discuss the simplicity, speed, concurrency limits, and how to wrap SQLite callback-based queries into clean ES6 promises in Node.js applications for a seamless developer experience.",
+    "author": "Lucas Thorne",
+    "publishedAt": "2026-06-14T13:18:04.896Z"
+  },
+  {
+    "id": 4,
+    "title": "Daily Vlog",
+    "summary": "My Clg Daily Vlog",
+    "content": "\"Hey everyone, welcome back to the channel. Today is officially day three of mid-term exam season, and my brain is currently fried. I’m running on four hours of sleep and pure adrenaline. I'm heading straight to the library to meet my study group, and then I have a massive presentation this afternoon. Wish me luck, because I’m definitely going to need it today.\"",
+    "author": "Raj",
+    "publishedAt": "2026-06-14T13:54:30.673Z"
+  }
+]
