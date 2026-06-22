@@ -1,1 +1,1 @@
-# Blogging-Platform
+# Mini Blogging-Platform
