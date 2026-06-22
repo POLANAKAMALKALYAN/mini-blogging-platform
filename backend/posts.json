@@ -28,6 +28,7 @@
     "title": "Daily Vlog",
     "summary": "My Clg Daily Vlog",
     "content": "\"Hey everyone, welcome back to the channel. Today is officially day three of mid-term exam season, and my brain is currently fried. I’m running on four hours of sleep and pure adrenaline. I'm heading straight to the library to meet my study group, and then I have a massive presentation this afternoon. Wish me luck, because I’m definitely going to need it today.\"",
+<<<<<<< HEAD
     "author": "Ram charan",
     "publishedAt": "2026-06-14T13:54:30.673Z"
   },
@@ -46,5 +47,9 @@
     "content": "I slove multiple problems in leetcode and various platforms before that i leanred programming language and different concepts in dsa and i start problem sloving questions in varous platforms like leetcode ,codechef.",
     "author": "Kamal",
     "publishedAt": "2026-06-14T17:43:52.932Z"
+=======
+    "author": "Raj",
+    "publishedAt": "2026-06-14T13:54:30.673Z"
+>>>>>>> 19aefae7ee78550654b6ce79039f640377286024
   }
 ]
